@@ -8,32 +8,72 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+<style>
+h1 {
+    color: Black;
+    text-align: center;
+}
+.title1{
+    background:yellow;
+    padding:2px;
+}
+.title2{
+    background:pink;
+    padding:2px;
+}
+.title3{
+    background:orange;
+    padding:2px;
+}
+h3{
+    font-family: verdana;
+    width:105px;
+    float:right;
+    color:black;
+    text-align:center;
+    margin:0px;
+    padding:0px;
+    border-bottom:2px solid black;
+    border-left:2px solid black;
+}
+.clear{
+    font-family: "Times New Roman", Times, serif;
+    clear:right;
+    padding:2px;
+    margin:2px;
+}
+.col-md-4 {
+    background:lightblue;
+    width: 350px;
+    height:170px;
+    margin:10px;
+    padding:0px;
+    border: 2px solid black;
+}
+</style>
+</head>
 <body>
-
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
-  
+<h1>Our products</h1>
 <div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
+<div class="row">
+<div class="clear">
+<div class="col-md-4">
+<h3 class="title1">Basket</h3>
+<p class="clear">Each is handwoven exclusively for us by artisans around the world—from a remote region of Mexico where an entire community harvests, braids and weaves the native palms, to the Philippines where the hearts and hands of the islands’ legendary weavers prevail as the region builds.</p>
 </div>
+<div class="col-md-4">
+<h3 class="title2">Birdcage</h3>
+<p class="clear">Fill with succulents to hand in your garden. Decorative bird cages can also be incorporated into elegant centerpieces. Also find large selection of decorative birds, grapevine nests, eggs, and more - Bird cages, artificial birds, nests and more - all at discount prices</p>
+</div>
+<div class="col-md-4">
+<h3 class="title3">Planter</h3>
+<p class="clear">Our line of flower pots and planters is designed to help you grow stunning displays of annuals or perennials. Because flower gardeners know that container plants have special needs, we have developed self-watering, durable planters that help your flowers thrive.</p>
+</div>
+</div>
+</div>
+</div>
+
+</body>
 
 </body>
 </html>
